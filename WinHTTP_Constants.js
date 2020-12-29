@@ -43,10 +43,12 @@ var WinHttpRequestOption = {
 };
 
 var WinHttpRequestSecureProtocols = {
-	SecureProtocol_ALL : 168,
+	SecureProtocol_ALL : 2728,
 	SecureProtocol_SSL2 : 8,
 	SecureProtocol_SSL3 : 32,
-	SecureProtocol_TLS1 : 128
+	SecureProtocol_TLS1: 128,
+	SecureProtocol_TLS1_1: 512,
+	SecureProtocol_TLS1_2: 2048
 };
 
 var WinHttpRequestSslErrorFlags = {
